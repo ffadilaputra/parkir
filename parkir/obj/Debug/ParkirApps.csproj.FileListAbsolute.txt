@@ -12,3 +12,17 @@ C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\Pa
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.exe
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.pdb
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.FormKustomer.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\bin\Debug\parkir.exe.config
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.exe
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.pdb
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\bin\Debug\parkir.exe
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\bin\Debug\parkir.pdb
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\ParkirApps.csprojResolveAssemblyReference.cache
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.Form1.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.FormAgama.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.FormJukir.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.FormKategori.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkiran.FormKendaraan.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.FormKustomer.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.Properties.Resources.resources
+C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\ParkirApps.csproj.GenerateResource.Cache

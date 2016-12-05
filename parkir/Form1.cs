@@ -16,7 +16,6 @@ namespace BAL
     public partial class Parkiran : MetroForm
     {
 
-
         public Parkiran()
         {
             InitializeComponent();

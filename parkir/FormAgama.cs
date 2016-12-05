@@ -3,10 +3,11 @@ using System.Windows.Forms;
 using BEL;
 using System.Collections.Generic;
 using System.Data;
+using MetroFramework.Forms;
 
 namespace BAL
 {
-    public partial class FormAgama : Form
+    public partial class FormAgama : MetroForm
     {
 
         private int rowIndex = 0;
@@ -59,18 +60,7 @@ namespace BAL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            agg.Keterangan = textBox1.Text;
-            int row = op.inserAgama(agg);
-
-            if(row > 0)
-            {
-                MessageBox.Show("Data Berhasil Disimpan");
-               
-            }
-            else
-            {
-                MessageBox.Show("Data Gagal Disimpan");
-            }
+            
 
         }
 
@@ -97,6 +87,32 @@ namespace BAL
         private void contextMenuStrip1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            agg.Keterangan = metroTextBox1.Text;
+            int row = op.inserAgama(agg);
+
+            if (row > 0)
+            {
+                MessageBox.Show("Data Berhasil Disimpan");
+
+            }
+            else
+            {
+                MessageBox.Show("Data Gagal Disimpan");
+            }
+        }
+
+        private void metroTextBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

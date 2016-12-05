@@ -32,3 +32,6 @@ C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BA
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.FormJukir.resources
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.FormKategori.resources
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.FormKustomer.resources
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\MetroFramework.Design.dll
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\MetroFramework.dll
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\MetroFramework.Fonts.dll

@@ -1,5 +1,6 @@
 ﻿
 using BEL;
+using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,11 +13,11 @@ using System.Windows.Forms;
 
 namespace BAL
 {
-    public partial class Form1 : Form
+    public partial class Parkiran : MetroForm
     {
 
 
-        public Form1()
+        public Parkiran()
         {
             InitializeComponent();
         }

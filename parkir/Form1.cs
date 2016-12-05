@@ -1,4 +1,5 @@
-﻿using parkir.Models;
+﻿
+using BEL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,14 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace parkir
+namespace BAL
 {
     public partial class Form1 : Form
     {
 
-        public List<Jukir> dafarJukir = new List<Jukir>();
-        public List<Category> daftarCategory = new List<Category>();
-        
 
         public Form1()
         {
@@ -40,14 +38,12 @@ namespace parkir
 
         private void kategoriToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            FormKategori f = new FormKategori(daftarCategory);
-            f.ShowDialog();
+           
         }
 
         private void jukirToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            FormJukir jk = new FormJukir(dafarJukir);
-            jk.ShowDialog();
+           
         }
 
         private void kustomerToolStripMenuItem_Click(object sender, EventArgs e)

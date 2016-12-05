@@ -1,4 +1,4 @@
-﻿namespace parkir
+﻿namespace BAL
 {
     partial class FormJukir
     {

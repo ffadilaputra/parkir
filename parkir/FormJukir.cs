@@ -1,4 +1,4 @@
-﻿using parkir.Models;
+﻿using BEL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace parkir
+namespace BAL
 {
     public partial class FormJukir : Form
     {

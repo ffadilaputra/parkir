@@ -2,16 +2,11 @@ C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\pa
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\parkir.exe
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\parkir.pdb
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\ParkirApps.csprojResolveAssemblyReference.cache
-C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.Form1.resources
-C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.FormAgama.resources
-C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.FormJukir.resources
-C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.FormKategori.resources
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkiran.FormKendaraan.resources
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.Properties.Resources.resources
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\ParkirApps.csproj.GenerateResource.Cache
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.exe
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.pdb
-C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\parkir.FormKustomer.resources
 C:\Users\Gombloh\Videos\parkiran-gui\parkir\bin\Debug\parkir.exe.config
 C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.exe
 C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.pdb
@@ -26,3 +21,14 @@ C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkiran.FormKendaraan.res
 C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.FormKustomer.resources
 C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\parkir.Properties.Resources.resources
 C:\Users\Gombloh\Videos\parkiran-gui\parkir\obj\Debug\ParkirApps.csproj.GenerateResource.Cache
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\BAL.dll
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\BEL.dll
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\DAL.dll
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\BAL.pdb
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\BEL.pdb
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\bin\Debug\DAL.pdb
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.Form1.resources
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.FormAgama.resources
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.FormJukir.resources
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.FormKategori.resources
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkir\parkir\obj\Debug\BAL.FormKustomer.resources

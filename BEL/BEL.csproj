@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Informations.cs" />
+    <Compile Include="Agama.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Jukir.cs" />
+    <Compile Include="Kendaraan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

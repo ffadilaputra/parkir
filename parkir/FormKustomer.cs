@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace parkir
+namespace BAL
 {
     public partial class FormKustomer : Form
     {

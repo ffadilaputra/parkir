@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BAL
+namespace BEL
 {
-    public class Opreations
+    public class Kendaraan
     {
+
+        
+
     }
 }

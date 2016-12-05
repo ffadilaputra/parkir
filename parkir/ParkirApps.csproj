@@ -82,9 +82,6 @@
     <Compile Include="FormKustomer.Designer.cs">
       <DependentUpon>FormKustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Agama.cs" />
-    <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Kendaraan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -114,7 +111,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Jukir.cs" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

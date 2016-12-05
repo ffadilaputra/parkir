@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace parkir.Properties
+namespace BAL.Properties
 {
 
 

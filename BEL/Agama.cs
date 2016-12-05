@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace parkir.Models
+namespace BEL
 {
     public class Agama
     {
-
         private string _keterangan;
 
         public string Keterangan

@@ -23,6 +23,8 @@ namespace BAL
             set { _daftarAgama = value; }
         }
 
+
+
         public FormAgama()
         {
             InitializeComponent();
@@ -36,11 +38,12 @@ namespace BAL
             
         }
 
+
         public void loadAgama()
         {
             DataTable dt = new DataTable();
             dt = op.viewAgama(agg);
-            dataGridView1.DataSource = dt;
+            metroGrid1.DataSource = dt;           
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -58,18 +61,7 @@ namespace BAL
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -86,7 +78,7 @@ namespace BAL
 
         private void contextMenuStrip1_Click(object sender, EventArgs e)
         {
-            
+          
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
@@ -102,7 +94,7 @@ namespace BAL
             if (row > 0)
             {
                 MessageBox.Show("Data Berhasil Disimpan");
-
+                loadAgama();
             }
             else
             {
@@ -111,6 +103,67 @@ namespace BAL
         }
 
         private void metroTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroGrid1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+           
+        }
+
+        private void metroGrid1_SelectionChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void metroGrid1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
+        }
+
+        private void metroGrid1_CellMouseUp(object sender, DataGridViewCellMouseEventArgs e)
+        {
+
+        }
+
+        private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton5_Click(object sender, EventArgs e)
+        {
+            agg.Id = Int32.Parse(metroTextBox2.Text);
+            op.delAgama(agg);
+            loadAgama();
+        }
+
+        private void metroGrid1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            metroTextBox2.Text = metroGrid1.SelectedRows[0].Cells[0].Value.ToString();
+            metroTextBox1.Text = metroGrid1.SelectedRows[0].Cells[1].Value.ToString();
+        }
+
+        private void metroGrid1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            agg.Id = Int32.Parse(metroTextBox2.Text);
+            agg.Keterangan = metroTextBox1.Text;
+            op.updateAgama(agg);
+            loadAgama();
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
         {
 
         }

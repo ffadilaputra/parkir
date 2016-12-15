@@ -9,6 +9,16 @@ namespace BEL
     public class Category
     {
 
+        private int _id;
+
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+
+
         private string _keterangan;
 
         public string Keterangan
@@ -23,6 +33,14 @@ namespace BEL
         {
             get { return _jenis; }
             set { _jenis = value; }
+        }
+
+        private int _harga;
+
+        public int Harga
+        {
+            get { return _harga; }
+            set { _harga = value; }
         }
 
 

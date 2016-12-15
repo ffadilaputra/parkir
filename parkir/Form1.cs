@@ -38,7 +38,8 @@ namespace BAL
 
         private void kategoriToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-           
+            FormKategori km = new FormKategori();
+            km.ShowDialog();
         }
 
         private void jukirToolStripMenuItem1_Click(object sender, EventArgs e)

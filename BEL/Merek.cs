@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    public class Agama
+    public class Merek
     {
         private int _id;
 
@@ -16,13 +16,12 @@ namespace BEL
             set { _id = value; }
         }
 
+        private string  _namaMerk;
 
-        private string _keterangan;
-
-        public string Keterangan
+        public string  namaMerek
         {
-            get { return _keterangan; }
-            set { _keterangan = value; }
+            get { return _namaMerk; }
+            set { _namaMerk = value; }
         }
 
 

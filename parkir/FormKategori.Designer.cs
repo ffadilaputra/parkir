@@ -28,95 +28,312 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtBoxHarga = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.txtBoxJenis = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.txtBoxKeterangan = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.metroButton3 = new MetroFramework.Controls.MetroButton();
+            this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // metroGrid1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Keterangan";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.metroGrid1.AllowUserToResizeRows = false;
+            this.metroGrid1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.metroGrid1.EnableHeadersVisualStyles = false;
+            this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.metroGrid1.Location = new System.Drawing.Point(355, 142);
+            this.metroGrid1.Name = "metroGrid1";
+            this.metroGrid1.ReadOnly = true;
+            this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.metroGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.metroGrid1.Size = new System.Drawing.Size(411, 262);
+            this.metroGrid1.TabIndex = 5;
+            this.metroGrid1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.metroGrid1_CellClick);
+            this.metroGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.metroGrid1_CellContentClick);
             // 
-            // label2
+            // groupBox1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 89);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Jenis";
+            this.groupBox1.Controls.Add(this.txtBoxHarga);
+            this.groupBox1.Controls.Add(this.metroLabel3);
+            this.groupBox1.Controls.Add(this.metroButton2);
+            this.groupBox1.Controls.Add(this.metroButton1);
+            this.groupBox1.Controls.Add(this.txtBoxJenis);
+            this.groupBox1.Controls.Add(this.metroLabel2);
+            this.groupBox1.Controls.Add(this.txtBoxKeterangan);
+            this.groupBox1.Controls.Add(this.metroLabel1);
+            this.groupBox1.Location = new System.Drawing.Point(23, 103);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(317, 334);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Tambah Data";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // textBox1
+            // txtBoxHarga
             // 
-            this.textBox1.Location = new System.Drawing.Point(96, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(96, 86);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // button1
+            this.txtBoxHarga.CustomButton.Image = null;
+            this.txtBoxHarga.CustomButton.Location = new System.Drawing.Point(230, 1);
+            this.txtBoxHarga.CustomButton.Name = "";
+            this.txtBoxHarga.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtBoxHarga.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtBoxHarga.CustomButton.TabIndex = 1;
+            this.txtBoxHarga.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtBoxHarga.CustomButton.UseSelectable = true;
+            this.txtBoxHarga.CustomButton.Visible = false;
+            this.txtBoxHarga.Lines = new string[0];
+            this.txtBoxHarga.Location = new System.Drawing.Point(14, 227);
+            this.txtBoxHarga.MaxLength = 32767;
+            this.txtBoxHarga.Name = "txtBoxHarga";
+            this.txtBoxHarga.PasswordChar = '\0';
+            this.txtBoxHarga.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtBoxHarga.SelectedText = "";
+            this.txtBoxHarga.SelectionLength = 0;
+            this.txtBoxHarga.SelectionStart = 0;
+            this.txtBoxHarga.ShortcutsEnabled = true;
+            this.txtBoxHarga.Size = new System.Drawing.Size(252, 23);
+            this.txtBoxHarga.TabIndex = 7;
+            this.txtBoxHarga.UseSelectable = true;
+            this.txtBoxHarga.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtBoxHarga.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            this.button1.Location = new System.Drawing.Point(96, 131);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // metroLabel3
             // 
-            // dataGridView1
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.Location = new System.Drawing.Point(16, 194);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(45, 19);
+            this.metroLabel3.TabIndex = 6;
+            this.metroLabel3.Text = "Harga";
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(256, 39);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(362, 325);
-            this.dataGridView1.TabIndex = 5;
+            // metroButton2
+            // 
+            this.metroButton2.Location = new System.Drawing.Point(129, 279);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(109, 31);
+            this.metroButton2.TabIndex = 5;
+            this.metroButton2.Text = "Clear";
+            this.metroButton2.UseSelectable = true;
+            // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(14, 279);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(109, 31);
+            this.metroButton1.TabIndex = 4;
+            this.metroButton1.Text = "Submit";
+            this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
+            // txtBoxJenis
+            // 
+            // 
+            // 
+            // 
+            this.txtBoxJenis.CustomButton.Image = null;
+            this.txtBoxJenis.CustomButton.Location = new System.Drawing.Point(230, 1);
+            this.txtBoxJenis.CustomButton.Name = "";
+            this.txtBoxJenis.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtBoxJenis.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtBoxJenis.CustomButton.TabIndex = 1;
+            this.txtBoxJenis.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtBoxJenis.CustomButton.UseSelectable = true;
+            this.txtBoxJenis.CustomButton.Visible = false;
+            this.txtBoxJenis.Lines = new string[0];
+            this.txtBoxJenis.Location = new System.Drawing.Point(16, 149);
+            this.txtBoxJenis.MaxLength = 32767;
+            this.txtBoxJenis.Name = "txtBoxJenis";
+            this.txtBoxJenis.PasswordChar = '\0';
+            this.txtBoxJenis.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtBoxJenis.SelectedText = "";
+            this.txtBoxJenis.SelectionLength = 0;
+            this.txtBoxJenis.SelectionStart = 0;
+            this.txtBoxJenis.ShortcutsEnabled = true;
+            this.txtBoxJenis.Size = new System.Drawing.Size(252, 23);
+            this.txtBoxJenis.TabIndex = 3;
+            this.txtBoxJenis.UseSelectable = true;
+            this.txtBoxJenis.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtBoxJenis.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(16, 114);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(36, 19);
+            this.metroLabel2.TabIndex = 2;
+            this.metroLabel2.Text = "Jenis";
+            // 
+            // txtBoxKeterangan
+            // 
+            // 
+            // 
+            // 
+            this.txtBoxKeterangan.CustomButton.Image = null;
+            this.txtBoxKeterangan.CustomButton.Location = new System.Drawing.Point(230, 1);
+            this.txtBoxKeterangan.CustomButton.Name = "";
+            this.txtBoxKeterangan.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtBoxKeterangan.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtBoxKeterangan.CustomButton.TabIndex = 1;
+            this.txtBoxKeterangan.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtBoxKeterangan.CustomButton.UseSelectable = true;
+            this.txtBoxKeterangan.CustomButton.Visible = false;
+            this.txtBoxKeterangan.Lines = new string[0];
+            this.txtBoxKeterangan.Location = new System.Drawing.Point(16, 76);
+            this.txtBoxKeterangan.MaxLength = 32767;
+            this.txtBoxKeterangan.Name = "txtBoxKeterangan";
+            this.txtBoxKeterangan.PasswordChar = '\0';
+            this.txtBoxKeterangan.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtBoxKeterangan.SelectedText = "";
+            this.txtBoxKeterangan.SelectionLength = 0;
+            this.txtBoxKeterangan.SelectionStart = 0;
+            this.txtBoxKeterangan.ShortcutsEnabled = true;
+            this.txtBoxKeterangan.Size = new System.Drawing.Size(252, 23);
+            this.txtBoxKeterangan.TabIndex = 1;
+            this.txtBoxKeterangan.UseSelectable = true;
+            this.txtBoxKeterangan.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtBoxKeterangan.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(16, 39);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(75, 19);
+            this.metroLabel1.TabIndex = 0;
+            this.metroLabel1.Text = "Keterangan";
+            this.metroLabel1.Click += new System.EventHandler(this.metroLabel1_Click);
+            // 
+            // metroTextBox3
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox3.CustomButton.Image = null;
+            this.metroTextBox3.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.metroTextBox3.CustomButton.Name = "";
+            this.metroTextBox3.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.metroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox3.CustomButton.TabIndex = 1;
+            this.metroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox3.CustomButton.UseSelectable = true;
+            this.metroTextBox3.CustomButton.Visible = false;
+            this.metroTextBox3.Lines = new string[0];
+            this.metroTextBox3.Location = new System.Drawing.Point(405, 103);
+            this.metroTextBox3.MaxLength = 32767;
+            this.metroTextBox3.Name = "metroTextBox3";
+            this.metroTextBox3.PasswordChar = '\0';
+            this.metroTextBox3.ReadOnly = true;
+            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox3.SelectedText = "";
+            this.metroTextBox3.SelectionLength = 0;
+            this.metroTextBox3.SelectionStart = 0;
+            this.metroTextBox3.ShortcutsEnabled = true;
+            this.metroTextBox3.Size = new System.Drawing.Size(175, 23);
+            this.metroTextBox3.TabIndex = 7;
+            this.metroTextBox3.UseSelectable = true;
+            this.metroTextBox3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.metroTextBox3.Click += new System.EventHandler(this.metroTextBox3_Click);
+            // 
+            // metroButton3
+            // 
+            this.metroButton3.Location = new System.Drawing.Point(586, 103);
+            this.metroButton3.Name = "metroButton3";
+            this.metroButton3.Size = new System.Drawing.Size(87, 23);
+            this.metroButton3.TabIndex = 8;
+            this.metroButton3.Text = "Ubha";
+            this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
+            // 
+            // metroButton4
+            // 
+            this.metroButton4.Location = new System.Drawing.Point(679, 103);
+            this.metroButton4.Name = "metroButton4";
+            this.metroButton4.Size = new System.Drawing.Size(87, 23);
+            this.metroButton4.TabIndex = 9;
+            this.metroButton4.Text = "Hapus";
+            this.metroButton4.UseSelectable = true;
+            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
             // FormKategori
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 387);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(780, 460);
+            this.Controls.Add(this.metroButton4);
+            this.Controls.Add(this.metroButton3);
+            this.Controls.Add(this.metroTextBox3);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.metroGrid1);
             this.Name = "FormKategori";
             this.Text = "FormKategori";
             this.Load += new System.EventHandler(this.FormKategori_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private MetroFramework.Controls.MetroGrid metroGrid1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private MetroFramework.Controls.MetroTextBox txtBoxJenis;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroTextBox txtBoxKeterangan;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroButton metroButton2;
+        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroButton metroButton3;
+        private MetroFramework.Controls.MetroButton metroButton4;
+        private MetroFramework.Controls.MetroTextBox txtBoxHarga;
+        private MetroFramework.Controls.MetroLabel metroLabel3;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Parkiran));
             this.jukirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kategoriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kendaraanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +41,7 @@
             this.agamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laporanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.homes = new MetroFramework.Controls.MetroButton();
+            this.lnkSettings = new MetroFramework.Controls.MetroLink();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -138,20 +139,24 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // homes
+            // lnkSettings
             // 
-            this.homes.Location = new System.Drawing.Point(24, 127);
-            this.homes.Name = "homes";
-            this.homes.Size = new System.Drawing.Size(166, 142);
-            this.homes.TabIndex = 1;
-            this.homes.UseSelectable = true;
+            this.lnkSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lnkSettings.Image = ((System.Drawing.Image)(resources.GetObject("lnkSettings.Image")));
+            this.lnkSettings.ImageSize = 32;
+            this.lnkSettings.Location = new System.Drawing.Point(728, 100);
+            this.lnkSettings.Name = "lnkSettings";
+            this.lnkSettings.NoFocusImage = ((System.Drawing.Image)(resources.GetObject("lnkSettings.NoFocusImage")));
+            this.lnkSettings.Size = new System.Drawing.Size(42, 39);
+            this.lnkSettings.TabIndex = 2;
+            this.lnkSettings.UseSelectable = true;
             // 
             // Parkiran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(790, 496);
-            this.Controls.Add(this.homes);
+            this.Controls.Add(this.lnkSettings);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Parkiran";
@@ -178,7 +183,7 @@
         private System.Windows.Forms.ToolStripMenuItem agamaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laporanToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private MetroFramework.Controls.MetroButton homes;
+        private MetroFramework.Controls.MetroLink lnkSettings;
     }
 }
 

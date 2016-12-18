@@ -58,3 +58,4 @@ C:\Users\Double\Documents\Visual Studio 2015\Projects\parkiran-gui\parkir\obj\De
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkiran-gui\parkir\obj\Debug\BAL.FormKustomer.resources
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkiran-gui\parkir\obj\Debug\parkir.Properties.Resources.resources
 C:\Users\Double\Documents\Visual Studio 2015\Projects\parkiran-gui\parkir\obj\Debug\ParkirApps.csproj.GenerateResource.Cache
+C:\Users\Double\Documents\Visual Studio 2015\Projects\parkiran-gui\parkir\obj\Debug\parkir.FormMerek.resources

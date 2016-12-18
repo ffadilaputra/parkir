@@ -15,16 +15,6 @@ namespace BAL
         public Agama agg = new Agama();
         public OperationsAgama op = new OperationsAgama();
 
-        private List<Agama> _daftarAgama;
-
-        public List<Agama> DaftarAgama
-        {
-            get { return _daftarAgama; }
-            set { _daftarAgama = value; }
-        }
-
-
-
         public FormAgama()
         {
             InitializeComponent();
@@ -54,11 +44,6 @@ namespace BAL
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void FormAgama_Load(object sender, EventArgs e)
-        {
-            
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -112,11 +97,6 @@ namespace BAL
            
         }
 
-        private void metroGrid1_SelectionChanged(object sender, EventArgs e)
-        {
-           
-        }
-
         private void metroGrid1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -148,11 +128,6 @@ namespace BAL
         {
             metroTextBox2.Text = metroGrid1.SelectedRows[0].Cells[0].Value.ToString();
             metroTextBox1.Text = metroGrid1.SelectedRows[0].Cells[1].Value.ToString();
-        }
-
-        private void metroGrid1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void metroButton4_Click(object sender, EventArgs e)

@@ -2,7 +2,7 @@
 
 Tugas Besar GUI
 
- - Ivan Fadila Putra
+ - [Ivan Fadila Putra](https://github.com/ffadilaputra) 
  - Rahmad Yudha Teguh
  - Reza Ulul
 

@@ -17,8 +17,6 @@ namespace BEL
             set { _id = value; }
         }
 
-
-
         private string _keterangan;
 
         public string Keterangan
@@ -42,8 +40,6 @@ namespace BEL
             get { return _harga; }
             set { _harga = value; }
         }
-
-
 
     }
 }

@@ -28,170 +28,347 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.metroButton3 = new MetroFramework.Controls.MetroButton();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
+            this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // groupBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Plat Nomor :";
+            this.groupBox1.Controls.Add(this.metroLabel11);
+            this.groupBox1.Controls.Add(this.metroLabel10);
+            this.groupBox1.Controls.Add(this.metroButton2);
+            this.groupBox1.Controls.Add(this.metroButton1);
+            this.groupBox1.Controls.Add(this.metroLabel9);
+            this.groupBox1.Controls.Add(this.metroLabel8);
+            this.groupBox1.Controls.Add(this.metroTextBox2);
+            this.groupBox1.Controls.Add(this.metroLabel7);
+            this.groupBox1.Controls.Add(this.metroLabel6);
+            this.groupBox1.Controls.Add(this.metroLabel5);
+            this.groupBox1.Controls.Add(this.metroLabel4);
+            this.groupBox1.Controls.Add(this.metroLabel3);
+            this.groupBox1.Controls.Add(this.metroComboBox1);
+            this.groupBox1.Controls.Add(this.metroLabel2);
+            this.groupBox1.Controls.Add(this.metroLabel1);
+            this.groupBox1.Controls.Add(this.metroTextBox1);
+            this.groupBox1.Location = new System.Drawing.Point(23, 94);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(348, 481);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Kendaraan Masuk";
             // 
-            // label2
+            // metroTextBox1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Jam Masuk :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 155);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Jam Keluar :";
             // 
-            // label5
+            this.metroTextBox1.CustomButton.Image = null;
+            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(262, 1);
+            this.metroTextBox1.CustomButton.Name = "";
+            this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox1.CustomButton.TabIndex = 1;
+            this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox1.CustomButton.UseSelectable = true;
+            this.metroTextBox1.CustomButton.Visible = false;
+            this.metroTextBox1.Lines = new string[0];
+            this.metroTextBox1.Location = new System.Drawing.Point(16, 109);
+            this.metroTextBox1.MaxLength = 32767;
+            this.metroTextBox1.Name = "metroTextBox1";
+            this.metroTextBox1.PasswordChar = '\0';
+            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox1.SelectedText = "";
+            this.metroTextBox1.SelectionLength = 0;
+            this.metroTextBox1.SelectionStart = 0;
+            this.metroTextBox1.ShortcutsEnabled = true;
+            this.metroTextBox1.Size = new System.Drawing.Size(284, 23);
+            this.metroTextBox1.TabIndex = 0;
+            this.metroTextBox1.UseSelectable = true;
+            this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 276);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Biaya :";
+            // metroLabel1
             // 
-            // textBox5
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(16, 87);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(78, 19);
+            this.metroLabel1.TabIndex = 1;
+            this.metroLabel1.Text = "Plat Nomor";
             // 
-            this.textBox5.Location = new System.Drawing.Point(23, 306);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(173, 20);
-            this.textBox5.TabIndex = 9;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // metroLabel2
             // 
-            // maskedTextBox1
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(16, 147);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(102, 19);
+            this.metroLabel2.TabIndex = 2;
+            this.metroLabel2.Text = "Jenis Kendaraan";
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(23, 76);
-            this.maskedTextBox1.Mask = "aa 0000 aaa";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 10;
-            this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            // metroComboBox1
             // 
-            // maskedTextBox2
+            this.metroComboBox1.FormattingEnabled = true;
+            this.metroComboBox1.ItemHeight = 23;
+            this.metroComboBox1.Location = new System.Drawing.Point(16, 169);
+            this.metroComboBox1.Name = "metroComboBox1";
+            this.metroComboBox1.Size = new System.Drawing.Size(284, 29);
+            this.metroComboBox1.TabIndex = 3;
+            this.metroComboBox1.UseSelectable = true;
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(23, 123);
-            this.maskedTextBox2.Mask = "00/00/0000 90:00";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox2.TabIndex = 11;
-            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
-            this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
+            // metroLabel3
             // 
-            // maskedTextBox3
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.Location = new System.Drawing.Point(16, 220);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(74, 19);
+            this.metroLabel3.TabIndex = 4;
+            this.metroLabel3.Text = "Jam Masuk";
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(23, 183);
-            this.maskedTextBox3.Mask = "00/00/0000 90:00";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox3.TabIndex = 12;
-            this.maskedTextBox3.ValidatingType = typeof(System.DateTime);
-            this.maskedTextBox3.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox3_MaskInputRejected);
+            // metroLabel4
             // 
-            // dataGridView1
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.Location = new System.Drawing.Point(16, 254);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(64, 19);
+            this.metroLabel4.TabIndex = 5;
+            this.metroLabel4.Text = "00:00 PM";
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(308, 34);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(359, 250);
-            this.dataGridView1.TabIndex = 13;
+            // metroLabel5
             // 
-            // button1
+            this.metroLabel5.AutoSize = true;
+            this.metroLabel5.Location = new System.Drawing.Point(113, 220);
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.Size = new System.Drawing.Size(94, 19);
+            this.metroLabel5.TabIndex = 6;
+            this.metroLabel5.Text = "Tanggal Parkir";
             // 
-            this.button1.Location = new System.Drawing.Point(573, 326);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 31);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // metroLabel6
             // 
-            // label4
+            this.metroLabel6.AutoSize = true;
+            this.metroLabel6.Location = new System.Drawing.Point(122, 254);
+            this.metroLabel6.Name = "metroLabel6";
+            this.metroLabel6.Size = new System.Drawing.Size(75, 19);
+            this.metroLabel6.TabIndex = 7;
+            this.metroLabel6.Text = "12/03/2016";
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(23, 220);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 13);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Kategori :";
+            // metroLabel7
             // 
-            // comboBox1
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.Location = new System.Drawing.Point(16, 32);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(76, 19);
+            this.metroLabel7.TabIndex = 8;
+            this.metroLabel7.Text = "Kode Karcis";
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(23, 237);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 16;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // metroTextBox2
+            // 
+            // 
+            // 
+            // 
+            this.metroTextBox2.CustomButton.Image = null;
+            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(262, 1);
+            this.metroTextBox2.CustomButton.Name = "";
+            this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox2.CustomButton.TabIndex = 1;
+            this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTextBox2.CustomButton.UseSelectable = true;
+            this.metroTextBox2.CustomButton.Visible = false;
+            this.metroTextBox2.Lines = new string[0];
+            this.metroTextBox2.Location = new System.Drawing.Point(16, 54);
+            this.metroTextBox2.MaxLength = 32767;
+            this.metroTextBox2.Name = "metroTextBox2";
+            this.metroTextBox2.PasswordChar = '\0';
+            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.metroTextBox2.SelectedText = "";
+            this.metroTextBox2.SelectionLength = 0;
+            this.metroTextBox2.SelectionStart = 0;
+            this.metroTextBox2.ShortcutsEnabled = true;
+            this.metroTextBox2.Size = new System.Drawing.Size(284, 23);
+            this.metroTextBox2.TabIndex = 9;
+            this.metroTextBox2.UseSelectable = true;
+            this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.Location = new System.Drawing.Point(18, 303);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(75, 19);
+            this.metroLabel8.TabIndex = 10;
+            this.metroLabel8.Text = "Nama Jukir";
+            // 
+            // metroLabel9
+            // 
+            this.metroLabel9.AutoSize = true;
+            this.metroLabel9.Location = new System.Drawing.Point(18, 336);
+            this.metroLabel9.Name = "metroLabel9";
+            this.metroLabel9.Size = new System.Drawing.Size(116, 19);
+            this.metroLabel9.TabIndex = 11;
+            this.metroLabel9.Text = "Jenenge Nek Kene";
+            // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(16, 420);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(116, 45);
+            this.metroButton1.TabIndex = 12;
+            this.metroButton1.Text = "Submit";
+            this.metroButton1.UseSelectable = true;
+            // 
+            // metroButton2
+            // 
+            this.metroButton2.Location = new System.Drawing.Point(138, 420);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(116, 45);
+            this.metroButton2.TabIndex = 13;
+            this.metroButton2.Text = "Clear";
+            this.metroButton2.UseSelectable = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(508, 94);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(531, 448);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "List Kendaraan Masuk";
+            // 
+            // metroButton3
+            // 
+            this.metroButton3.Location = new System.Drawing.Point(923, 553);
+            this.metroButton3.Name = "metroButton3";
+            this.metroButton3.Size = new System.Drawing.Size(116, 45);
+            this.metroButton3.TabIndex = 13;
+            this.metroButton3.Text = "Close";
+            this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
+            // 
+            // metroLabel10
+            // 
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.Location = new System.Drawing.Point(185, 303);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel10.TabIndex = 14;
+            this.metroLabel10.Text = "Kode Jukir";
+            // 
+            // metroLabel11
+            // 
+            this.metroLabel11.AutoSize = true;
+            this.metroLabel11.Location = new System.Drawing.Point(185, 336);
+            this.metroLabel11.Name = "metroLabel11";
+            this.metroLabel11.Size = new System.Drawing.Size(39, 19);
+            this.metroLabel11.TabIndex = 15;
+            this.metroLabel11.Text = "11EA";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.metroButton4);
+            this.groupBox3.Controls.Add(this.metroLabel13);
+            this.groupBox3.Controls.Add(this.metroLabel12);
+            this.groupBox3.Location = new System.Drawing.Point(1099, 94);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 187);
+            this.groupBox3.TabIndex = 14;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Opsi Kendaraan";
+            // 
+            // metroLabel12
+            // 
+            this.metroLabel12.AutoSize = true;
+            this.metroLabel12.Location = new System.Drawing.Point(6, 32);
+            this.metroLabel12.Name = "metroLabel12";
+            this.metroLabel12.Size = new System.Drawing.Size(93, 19);
+            this.metroLabel12.TabIndex = 0;
+            this.metroLabel12.Text = "No Kendaraan";
+            // 
+            // metroLabel13
+            // 
+            this.metroLabel13.AutoSize = true;
+            this.metroLabel13.Location = new System.Drawing.Point(10, 74);
+            this.metroLabel13.Name = "metroLabel13";
+            this.metroLabel13.Size = new System.Drawing.Size(89, 19);
+            this.metroLabel13.TabIndex = 1;
+            this.metroLabel13.Text = "N 154111 AO";
+            // 
+            // metroButton4
+            // 
+            this.metroButton4.Location = new System.Drawing.Point(10, 108);
+            this.metroButton4.Name = "metroButton4";
+            this.metroButton4.Size = new System.Drawing.Size(100, 42);
+            this.metroButton4.TabIndex = 2;
+            this.metroButton4.Text = "Keluar";
+            this.metroButton4.UseSelectable = true;
             // 
             // FormKendaraan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(679, 369);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1349, 621);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.metroButton3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Name = "FormKendaraan";
             this.Text = "FormKendaraan";
             this.Load += new System.EventHandler(this.FormKendaraan_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private MetroFramework.Controls.MetroButton metroButton2;
+        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroLabel metroLabel9;
+        private MetroFramework.Controls.MetroLabel metroLabel8;
+        private MetroFramework.Controls.MetroTextBox metroTextBox2;
+        private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroLabel metroLabel6;
+        private MetroFramework.Controls.MetroLabel metroLabel5;
+        private MetroFramework.Controls.MetroLabel metroLabel4;
+        private MetroFramework.Controls.MetroLabel metroLabel3;
+        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private MetroFramework.Controls.MetroButton metroButton3;
+        private MetroFramework.Controls.MetroLabel metroLabel11;
+        private MetroFramework.Controls.MetroLabel metroLabel10;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private MetroFramework.Controls.MetroLabel metroLabel13;
+        private MetroFramework.Controls.MetroLabel metroLabel12;
+        private MetroFramework.Controls.MetroButton metroButton4;
     }
 }

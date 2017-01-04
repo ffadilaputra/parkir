@@ -9,9 +9,6 @@ namespace BAL
 {
     public partial class FormAgama : MetroForm
     {
-
-        private int rowIndex = 0;
-
         public Agama agg = new Agama();
         public OperationsAgama op = new OperationsAgama();
 
@@ -126,7 +123,7 @@ namespace BAL
 
         private void metroGrid1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            metroTextBox2.Text = metroGrid1.SelectedRows[0].Cells[0].Value.ToString();
+            metroTextBox2.Text = metroGrid1.SelectedRows[0].Cells[0].Value.ToString();//where
             metroTextBox1.Text = metroGrid1.SelectedRows[0].Cells[1].Value.ToString();
         }
 
@@ -139,6 +136,11 @@ namespace BAL
         }
 
         private void metroButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormAgama_Load(object sender, EventArgs e)
         {
 
         }

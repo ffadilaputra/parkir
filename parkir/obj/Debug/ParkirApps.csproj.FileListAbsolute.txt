@@ -84,3 +84,6 @@ C:\Users\Double\Documents\GitHub\parkir\parkir\obj\Debug\BAL.FormKustomer.resour
 C:\Users\Double\Documents\GitHub\parkir\parkir\obj\Debug\parkir.Properties.Resources.resources
 C:\Users\Double\Documents\GitHub\parkir\parkir\obj\Debug\ParkirApps.csproj.GenerateResource.Cache
 C:\Users\Double\Documents\GitHub\parkir\parkir\obj\Debug\parkir.MainAdmin.resources
+C:\Users\Double\Documents\GitHub\parkir\parkir\obj\Debug\parkir.FormLogin.resources
+C:\Users\Double\Documents\GitHub\parkir\parkir\obj\Debug\parkir.ViewAdmin.resources
+C:\Users\Double\Documents\GitHub\parkir\parkir\obj\Debug\parkir.DataJukir.resources

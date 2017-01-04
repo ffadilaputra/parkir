@@ -8,6 +8,18 @@ namespace BEL
 {
     public class Agama
     {
+
+        public Agama()
+        {
+
+        }
+
+        public Agama(int Id,string Keterangan)
+        {
+            this.Id = Id;
+            this.Keterangan = Keterangan;
+        }
+
         private int _id;
 
         public int Id
@@ -24,7 +36,5 @@ namespace BEL
             get { return _keterangan; }
             set { _keterangan = value; }
         }
-
-
     }
 }

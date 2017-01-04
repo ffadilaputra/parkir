@@ -42,5 +42,13 @@ namespace BAL
             view.CommandText = "SELECT * FROM agama";
             return db.ExeReader(view);
         }
+
+        public int viewById(Agama agg)
+        {
+            SqlCommand s = new SqlCommand();
+            s.CommandType = CommandType.Text;
+            s.CommandText = "SELECT keterangan FROM agama order by id ASC";
+            return db.ExeNonQuery(s);
+        }
     }
 }  

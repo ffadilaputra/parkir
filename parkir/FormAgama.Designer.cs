@@ -264,6 +264,7 @@ namespace BAL
             this.Controls.Add(this.groupBox1);
             this.Name = "FormAgama";
             this.Text = "FormAgama";
+            this.Load += new System.EventHandler(this.FormAgama_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();

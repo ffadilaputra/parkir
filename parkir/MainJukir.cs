@@ -5,18 +5,14 @@ using parkir;
 using parkiran;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BAL
 {
     public partial class Parkiran : MetroForm
     {
+
+        public List<Agama> daftarAgama = new List<Agama>();
 
         public Parkiran()
         {
@@ -78,7 +74,8 @@ namespace BAL
 
         private void dataJukirToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            DataJukir dj = new DataJukir();
+            dj.ShowDialog();
         }
 
         private void tambahJukirToolStripMenuItem_Click(object sender, EventArgs e)

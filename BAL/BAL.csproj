@@ -43,6 +43,7 @@
     <Compile Include="OperationsAgama.cs" />
     <Compile Include="OperationsCategory.cs" />
     <Compile Include="OperationsJukir.cs" />
+    <Compile Include="OperationsKendaraan.cs" />
     <Compile Include="OperationsMerek.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

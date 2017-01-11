@@ -4,6 +4,7 @@ using BEL;
 using System.Collections.Generic;
 using System.Data;
 using MetroFramework.Forms;
+using MetroFramework;
 
 namespace BAL
 {
@@ -75,12 +76,12 @@ namespace BAL
 
             if (row > 0)
             {
-                MessageBox.Show("Data Berhasil Disimpan");
-                loadAgama();
+                MetroMessageBox.Show(this, "Alert", "Tambah Data Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                loadAgama();    
             }
             else
             {
-                MessageBox.Show("Data Gagal Disimpan");
+                MetroMessageBox.Show(this, "Alert", "Data Gagal Disimpan", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 

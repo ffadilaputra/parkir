@@ -1,4 +1,5 @@
 ﻿using BEL;
+using MetroFramework;
 using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
@@ -73,7 +74,7 @@ namespace BAL
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-
+            //btn simpan
             jk.Nama = txtFullName.Text;
             jk.Email = txtPassword.Text;
             jk.Alamat = txtAlamat.Text;
@@ -97,12 +98,25 @@ namespace BAL
             }
             jk.Username = txtUsername.Text;
             jk.Password = txtPassword.Text;
-            opJek.insert(jk);
+            int row = opJek.insert(jk);
+
+            if(row > 0)
+            {
+                MetroMessageBox.Show(this, "Alert", "Tambah Data Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }else
+            {
+                MetroMessageBox.Show(this, "Alert", "Data Gagal Disimpan", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
         }
 
         private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -95,7 +95,6 @@
             this.metroGrid1.Size = new System.Drawing.Size(475, 262);
             this.metroGrid1.TabIndex = 5;
             this.metroGrid1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.metroGrid1_CellClick);
-            this.metroGrid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.metroGrid1_CellContentClick);
             // 
             // groupBox1
             // 

@@ -105,5 +105,10 @@ namespace BAL
         {
 
         }
+
+        private void parkirKeluarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

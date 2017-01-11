@@ -36,9 +36,29 @@ namespace parkir
 
         }
 
-        private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void metroGrid1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            metroLabel1.Text = metroGrid1.SelectedRows[0].Cells[0].Value.ToString();
+            txtNama.Text = metroGrid1.SelectedRows[0].Cells[1].Value.ToString();
+            txtEmail.Text = metroGrid1.SelectedRows[0].Cells[2].Value.ToString();
+            txtAlamat.Text = metroGrid1.SelectedRows[0].Cells[3].Value.ToString();
+            //
+            //
+            txtUsername.Text = metroGrid1.SelectedRows[0].Cells[5].Value.ToString();
+            txtPassword.Text = metroGrid1.SelectedRows[0].Cells[6].Value.ToString();
+        }
 
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            FormJukir jj = new FormJukir();
+            jj.ShowDialog();
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            okKir.IdJukir = Int32.Parse(metroLabel1.Text);
+            opKir.delete(okKir);
+            loadJukir();
         }
     }
 }

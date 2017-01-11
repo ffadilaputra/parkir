@@ -392,6 +392,7 @@ namespace BAL
             this.metroButton3.TabIndex = 14;
             this.metroButton3.Text = "Tutub";
             this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // groupBox3
             // 

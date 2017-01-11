@@ -1,4 +1,5 @@
 ﻿using BEL;
+using MetroFramework;
 using MetroFramework.Forms;
 using System;
 using System.Collections.Generic;
@@ -76,12 +77,12 @@ namespace BAL
             int row = opCat.insertCategory(cat);
             if (row > 0)
             {
-                MessageBox.Show("Data Berhasil Disimpan");
-                loadKaegoi();
+                MetroMessageBox.Show(this, "Alert", "Tambah Data Berhasil", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                loadKaegoi();    
             }
             else
             {
-                MessageBox.Show("Data Gagal Disimpan");
+                MetroMessageBox.Show(this, "Alert", "Data Gagal Disimpan", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
 
         }
@@ -114,11 +115,6 @@ namespace BAL
             cat.Harga = Int32.Parse(txtBoxHarga.Text);
             opCat.updateCategory(cat);
             loadKaegoi();
-        }
-
-        private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void metroButton5_Click(object sender, EventArgs e)

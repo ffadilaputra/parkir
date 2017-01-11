@@ -41,15 +41,15 @@
             this.dataJukirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tambahJukirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataJukirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.profilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.profilToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.keluarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lnkSettings = new MetroFramework.Controls.MetroLink();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.profilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.profilToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.keluarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.metroTabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -68,13 +68,14 @@
             // parkirKeluarToolStripMenuItem
             // 
             this.parkirKeluarToolStripMenuItem.Name = "parkirKeluarToolStripMenuItem";
-            this.parkirKeluarToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.parkirKeluarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.parkirKeluarToolStripMenuItem.Text = "Parkir Keluar";
+            this.parkirKeluarToolStripMenuItem.Click += new System.EventHandler(this.parkirKeluarToolStripMenuItem_Click);
             // 
             // parkirMasukToolStripMenuItem
             // 
             this.parkirMasukToolStripMenuItem.Name = "parkirMasukToolStripMenuItem";
-            this.parkirMasukToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.parkirMasukToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.parkirMasukToolStripMenuItem.Text = "Parkir Masuk";
             this.parkirMasukToolStripMenuItem.Click += new System.EventHandler(this.parkirMasukToolStripMenuItem_Click);
             // 
@@ -149,16 +150,45 @@
             // tambahJukirToolStripMenuItem
             // 
             this.tambahJukirToolStripMenuItem.Name = "tambahJukirToolStripMenuItem";
-            this.tambahJukirToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.tambahJukirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.tambahJukirToolStripMenuItem.Text = "Tambah Jukir";
             this.tambahJukirToolStripMenuItem.Click += new System.EventHandler(this.tambahJukirToolStripMenuItem_Click);
             // 
             // dataJukirToolStripMenuItem1
             // 
             this.dataJukirToolStripMenuItem1.Name = "dataJukirToolStripMenuItem1";
-            this.dataJukirToolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
+            this.dataJukirToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.dataJukirToolStripMenuItem1.Text = "Data Jukir";
             this.dataJukirToolStripMenuItem1.Click += new System.EventHandler(this.dataJukirToolStripMenuItem1_Click);
+            // 
+            // profilToolStripMenuItem
+            // 
+            this.profilToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.profilToolStripMenuItem1,
+            this.keluarToolStripMenuItem});
+            this.profilToolStripMenuItem.Name = "profilToolStripMenuItem";
+            this.profilToolStripMenuItem.Size = new System.Drawing.Size(47, 51);
+            this.profilToolStripMenuItem.Text = "Akun";
+            this.profilToolStripMenuItem.Click += new System.EventHandler(this.profilToolStripMenuItem_Click);
+            // 
+            // profilToolStripMenuItem1
+            // 
+            this.profilToolStripMenuItem1.Name = "profilToolStripMenuItem1";
+            this.profilToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.profilToolStripMenuItem1.Text = "Profil";
+            // 
+            // keluarToolStripMenuItem
+            // 
+            this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
+            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.keluarToolStripMenuItem.Text = "Keluar";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(22, 51);
+            this.toolStripMenuItem1.Text = " ";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // lnkSettings
             // 
@@ -211,35 +241,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            // 
-            // profilToolStripMenuItem
-            // 
-            this.profilToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.profilToolStripMenuItem1,
-            this.keluarToolStripMenuItem});
-            this.profilToolStripMenuItem.Name = "profilToolStripMenuItem";
-            this.profilToolStripMenuItem.Size = new System.Drawing.Size(47, 51);
-            this.profilToolStripMenuItem.Text = "Akun";
-            this.profilToolStripMenuItem.Click += new System.EventHandler(this.profilToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(22, 51);
-            this.toolStripMenuItem1.Text = " ";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // profilToolStripMenuItem1
-            // 
-            this.profilToolStripMenuItem1.Name = "profilToolStripMenuItem1";
-            this.profilToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.profilToolStripMenuItem1.Text = "Profil";
-            // 
-            // keluarToolStripMenuItem
-            // 
-            this.keluarToolStripMenuItem.Name = "keluarToolStripMenuItem";
-            this.keluarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.keluarToolStripMenuItem.Text = "Keluar";
             // 
             // Parkiran
             // 
